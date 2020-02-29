@@ -11,7 +11,7 @@ Generates an ASCII pictures of a cow (or other charcter) with a message.
 `$ docker build -t macabees/cowsay:latest .`
 
 ## Docker Push
-`$ docker push -t macabees/aafire:latest`
+`$ docker push -t macabees/cowsay:latest`
 
 Note: requires `docker login`
 
