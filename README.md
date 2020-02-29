@@ -10,6 +10,11 @@ Generates an ASCII pictures of a cow (or other charcter) with a message.
 ## Build image
 `$ docker build -t macabees/cowsay:latest .`
 
+## Docker Push
+`$ docker push -t macabees/aafire:latest`
+
+Note: requires `docker login`
+
 ## Run image
 `$ echo "Hello World" | docker run -i --rm macabees/cowsay --`
 
