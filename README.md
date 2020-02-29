@@ -13,7 +13,7 @@ Generates an ASCII pictures of a cow (or other charcter) with a message.
 ## Run image
 `$ echo "Hello World" | docker run -i --rm macabees/cowsay --`
 
-      --OR--
+ --OR--
 
 `$ docker run -it --rm macabees/cowsay "Hello World"`
 
