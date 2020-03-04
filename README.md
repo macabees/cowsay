@@ -25,3 +25,6 @@ Note: requires `docker login`
 --OR--
 
 `$ docker run -it --rm macabees/fortune | docker run -i --rm macabees/cowsay --`
+
+## Help
+`$ docker run -it --rm macabees/cowsay -h`
